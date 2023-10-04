@@ -9,11 +9,11 @@ public class Gui extends JFrame {
 
 
     // Konstruktor, der die Rahmenbedingungen der grafischen Oberfläche festlegt.
-    public Gui(){
+    public Gui() {
         super("Snake");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(CommonConstants.FRAME_SIZE);
-       // setBackground(CommonConstants.BACKGROUND_COLOR);
+        setBackground(CommonConstants.BACKGROUND_COLOR);
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);
@@ -22,17 +22,15 @@ public class Gui extends JFrame {
 
     }
 
-    //
+
     private void addGuiComponents() {
         JPanel jPanel = new JPanel();
         jPanel.setVisible(true);
-        jPanel.setSize(CommonConstants.PANEL_Size);
-        jPanel.setLayout(null);
-        setLocationRelativeTo(null);
-        jPanel.setBackground(Color.red);
+        jPanel.setSize(CommonConstants.PANEL_SIZE);
+//      jPanel.setLayout(null);
+//      setLocationRelativeTo(null);
+//      jPanel.setBackground(Color.red);
         setBackground(CommonConstants.BACKGROUND_COLOR);
-
-
 
     }
 
