@@ -27,9 +27,9 @@ public class Gui extends JFrame {
         JPanel jPanel = new JPanel();
         jPanel.setVisible(true);
         jPanel.setSize(CommonConstants.PANEL_SIZE);
-//      jPanel.setLayout(null);
-//      setLocationRelativeTo(null);
-//      jPanel.setBackground(Color.red);
+        jPanel.setLayout(null);
+        setLocationRelativeTo(null);
+        jPanel.setBackground(Color.black);
         setBackground(CommonConstants.BACKGROUND_COLOR);
 
     }
