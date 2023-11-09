@@ -14,4 +14,5 @@ public class CommonConstants {
     // color config
     public static final Color BACKGROUND_COLOR = Color.BLACK;
 
+
 }
